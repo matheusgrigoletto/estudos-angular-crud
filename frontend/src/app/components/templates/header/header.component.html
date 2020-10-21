@@ -1,13 +1,13 @@
 <mat-toolbar class="header mat-elevation-z4">
   <span>
-    <a routerLink="">
-      <img src="http://placehold.it/140x32" alt="logo" class="logo" />
+    <a routerLink="/">
+      <img src="assets/img/logo.png" alt="logo" class="logo" />
     </a>
   </span>
   <span class="title-group">
-    <a href="#">
-      <i class="material-icons">home</i>
-      Angular CRUD
+    <a routerLink="{{ routerUrl }}">
+      <i class="material-icons">{{ icon }}</i>
+      {{ title }}
     </a>
   </span>
 </mat-toolbar>

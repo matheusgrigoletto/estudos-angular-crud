@@ -17,3 +17,23 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.msg-success {
+  background-color: green;
+  color: #fff;
+}
+
+.msg-error {
+  background-color: #c80000;
+  color: #fff;
+}
+
+form.app-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  button {
+    margin: 1.25rem 1rem 0 0;
+  }
+}

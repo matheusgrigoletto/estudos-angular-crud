@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 11899.99
+      "name": "Macbook Pro",
+      "price": "24899.99"
     },
     {
       "id": 3,
@@ -18,7 +18,12 @@
     {
       "id": 4,
       "name": "Lapis Preto Básico",
-      "price": 1.5
+      "price": "2.5"
+    },
+    {
+      "name": "Arroz 5Kg",
+      "price": "99.99",
+      "id": 6
     }
   ]
 }
